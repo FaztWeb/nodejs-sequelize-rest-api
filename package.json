@@ -1,0 +1,26 @@
+{
+  "name": "rest-api-nodejs-es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir dist",
+    "babel-node": "babel-node src/index.js",
+    "dev": "nodemon --exec npm run babel-node",
+    "start": "node dist/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "@babel/node": "^7.0.0",
+    "consign": "^0.1.6",
+    "express": "^4.16.3"
+  }
+}
