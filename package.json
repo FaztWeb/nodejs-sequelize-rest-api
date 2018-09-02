@@ -21,6 +21,8 @@
   "dependencies": {
     "@babel/node": "^7.0.0",
     "consign": "^0.1.6",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "sequelize": "^4.38.0",
+    "sqlite3": "^4.0.2"
   }
 }

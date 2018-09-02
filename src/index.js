@@ -5,7 +5,8 @@ const app = express();
 
 // Routes
 consign({cwd: __dirname})
-  .include('models')
+  .include('libs/config.js')
+  .then('db.js')
   .then('libs/middlewares.js')
   .then('routes')
   .then('libs/boot.js')
